@@ -14,5 +14,7 @@ desired_caps = dict(
 capabilities_options = UiAutomator2Options().load_capabilities(desired_caps)
 driver = webdriver.Remote('http://127.0.0.1:4723', options=capabilities_options)
 
+
+
 time.sleep(5)
 driver.quit()
